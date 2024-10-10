@@ -15,7 +15,7 @@ function getRandomColor() {
 
 const testButton = document.getElementById('test');
 testButton.addEventListener('click', () => {
-    alert('this is a js test');
+    alert('this is a js test, after clicking OK it will change the background color');
     const body = document.body;
     const randomColor = getRandomColor();
     body.style.backgroundColor = randomColor;
