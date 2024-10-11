@@ -15,8 +15,20 @@ function getRandomColor() {
 
 const testButton = document.getElementById('test');
 testButton.addEventListener('click', () => {
-    alert('this is a js test, after clicking OK it will change the background color');
+    alert('JS test, after clicking OK it will change the background color');
     const body = document.body;
     const randomColor = getRandomColor();
     body.style.backgroundColor = randomColor;
 })
+
+const button = document.querySelector('#button3');
+const canvas = document.querySelector('#confetti');
+
+
+const jsConfetti = new JSConfetti();
+
+button.addEventListener('click', () => {
+    jsConfetti.addConfetti({
+        emojis: ['👾', '⚡️', '💥', '✨', '💫', '👑', '♂️','👽'], }).then(() => jsConfetti.addConfetti())
+})
+
