@@ -1,4 +1,10 @@
 body {
+  background: url('background.png') no-repeat center fixed;
+  background-size: cover;
+  background-position: inherit;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #0cdde1;
 }
@@ -8,16 +14,17 @@ canvas#confetti {
     height: 100%;
     top: 0px;
     left: 0px;
-    z-index: 1000;
+    z-index: 100;
     pointer-events: none;
     }
 /* CSS */
+
 
 .button3 {
     background-color: #dbe519;
     border: 0 solid #e5e7eb;
     box-sizing: border-box;
-    color: #000000;
+    color: #5c0ce7;
     display: flex;
     font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,

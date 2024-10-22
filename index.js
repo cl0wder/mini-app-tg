@@ -1,5 +1,20 @@
 const changeBackgroundButton = document.getElementById('chang-background');
 
+// this it playground 
+
+// console.log(`this is from vs code`);   
+// console.log(`this is from vs code212121`); 
+
+// window.alert(`this is also from vscode`);
+let userInput;
+
+document.getElementById("userSubmit").onclick = function(){
+    userInput = document.getElementById("userInput").value;
+    document.getElementById("h1").textContent = `Hello ${userInput}`;
+
+}
+// document.getElementById("test").textContent = "Test World";
+
 changeBackgroundButton.addEventListener('click', () => {
     const body = document.body;
     const randomColor = getRandomColor();
