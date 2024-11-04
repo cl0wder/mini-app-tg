@@ -21,6 +21,7 @@ canvas#confetti {
 
 
 .button3 {
+    margin-top: 20px;
     background-color: #dbe519;
     border: 0 solid #e5e7eb;
     box-sizing: border-box;
@@ -79,10 +80,10 @@ canvas#confetti {
 
 
 h1 {
-    color: #00698f;
+    color: #f1e60e;
 }
 h2 {
-    color: #ec0a0a;
+    color: #14eb23;
 }
 /* /* #button3 {
     padding: 6px 12px;
@@ -106,6 +107,7 @@ h2 {
 }
 
 #test {
+    margin-left: 130px;
     padding: 6px 12px;
     /* position: absolute;
     top: 30%;
